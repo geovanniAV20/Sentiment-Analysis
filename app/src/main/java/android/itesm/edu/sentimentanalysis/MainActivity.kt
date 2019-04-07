@@ -130,7 +130,7 @@ class MainActivity : AppCompatActivity(),TextToSpeech.OnInitListener {
     fun getMenu(sentiment: String)
     {
         when{
-            sentiment.equals("Positive") -> menu = "Tomate una Coca cola"
+            sentiment.equals("Positive") -> menu = "Tómate una Coca cola"
             sentiment.equals("Neutral") -> menu = "Preparate una sopa de tortilla"
             sentiment.equals("Negative") -> menu = "Come unas enchiladas"
         }
